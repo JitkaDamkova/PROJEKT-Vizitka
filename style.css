@@ -2,6 +2,87 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body {
+    background-color: #b2bec3;
+    margin: 0px;
+}
+
+.obsah {
+    width: 550px;
+    border: 0px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    background-color: white;
+    border-radius: 10%;
+    padding: 30px 30px;
+    box-shadow: 2px 4px grey;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #d63031;
+    padding-bottom: 30px;
+    margin: 0px;
+
+}
+
+p {
+    font-size: 18px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+.Eliska {
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: -75px;
+    left: 475px;
+}
+
+.odkazy {
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+
+}
+    
+.Twitter {
+    background-color: #1da1f2;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.Facebook {
+   background-color: #3b5998;
+   border-radius: 5px;
+}
+
+.odkazy a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Twitter a:hover {
+    background-color: #0b7bc1;
+}
+
+.Facebook a:hover {
+    background-color: #2b406e;
+}
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
